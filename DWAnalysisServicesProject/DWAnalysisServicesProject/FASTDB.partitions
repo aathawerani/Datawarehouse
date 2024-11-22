@@ -1,0 +1,45 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a97f05f8-588b-4ce2-baad-e7a7c708a2ce" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>FASTDB</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Registration</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c56db201-8851-422f-a89c-c8b87eea6b07">
+          <ID>Registration</ID>
+          <Name>Registration</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5d4c340c-2bbf-4539-a89e-68040ed8389a">
+            <DataSourceViewID>FASTDB</DataSourceViewID>
+            <TableID>dbo_Registration</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Student Status</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="6211eaad-7141-4f57-a3b6-dc8793025dcc">
+          <ID>Student Status</ID>
+          <Name>Student Status</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ba1f3dd8-e25f-4820-84e6-22cb4c5ae609">
+            <DataSourceViewID>FASTDB</DataSourceViewID>
+            <TableID>dbo_StudentStatus</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

@@ -1,0 +1,58 @@
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Database>
+    <DataSources>
+      <DataSource>
+        <ID>FASTDB</ID>
+        <ConnectionString>Provider=SQLOLEDB.1;Data Source=aliahmed-116;Password=;User ID=;Initial Catalog=FASTDB</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode>ImpersonateServiceAccount</ImpersonationMode>
+          <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+    </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>Campus</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Student</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Degree</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Time</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Courses</ID>
+      </Dimension>
+    </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>FASTDB</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Registration</ID>
+            <Partitions>
+              <Partition>
+                <ID>Registration</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Student Status</ID>
+            <Partitions>
+              <Partition>
+                <ID>Student Status</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
+    <DataSourceImpersonationInfo>
+      <ImpersonationMode>Default</ImpersonationMode>
+      <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+    </DataSourceImpersonationInfo>
+  </Database>
+</ConfigurationSettings>

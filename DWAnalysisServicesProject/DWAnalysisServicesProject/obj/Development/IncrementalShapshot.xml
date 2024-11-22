@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>DWAnalysisServicesProject</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>rlqGgidm6xBf3l6nQecsvQ==7/11/2007 4:39:20 PM7/11/2007 4:39:16 PM</TimeStamp>
+        <ID>
+          <String>FASTDB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>DaP8Qtl+9UHAt+dvBgvveQ==7/11/2007 4:40:30 PM7/11/2007 4:39:36 PM</TimeStamp>
+        <ID>
+          <String>FASTDB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>AQUZ9kxzH051Fkop64aspw==7/11/2007 4:41:04 PM7/11/2007 4:40:52 PM</TimeStamp>
+        <ID>
+          <String>Campus</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>p+bjY+JWOlgnxpRlQ+y8Gg==7/11/2007 4:41:05 PM7/11/2007 4:40:52 PM</TimeStamp>
+        <ID>
+          <String>Student</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>P2es2vbxRrkowatA14UQ7Q==7/11/2007 4:41:05 PM7/11/2007 4:40:52 PM</TimeStamp>
+        <ID>
+          <String>Degree</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fxKwYs3Ck25zST1Vcagogw==7/11/2007 4:41:05 PM7/11/2007 4:40:52 PM</TimeStamp>
+        <ID>
+          <String>Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>xOnmnzgJKUruYjev2kAn9A==7/11/2007 4:41:05 PM7/11/2007 4:40:53 PM</TimeStamp>
+        <ID>
+          <String>Courses</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>RWaLKjHukVc2nGtvonNeDw==7/11/2007 4:45:04 PM7/11/2007 4:44:56 PMrTFyAnPr7j3qulm6c3r6lA==7/11/2007 4:45:04 PM7/11/2007 4:44:56 PM</TimeStamp>
+        <ID>
+          <String>FASTDB</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>DxQgtvEK6NZlmYT21ux2CQ==7/11/2007 12:13:47 PM7/11/2007 11:44:13 AM</TimeStamp>
+      <ID>
+        <String>DWAnalysisServicesProject</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>false</ProcessingComplete>
+  <LastDeployed>2007-07-11T11:45:10Z</LastDeployed>
+</DeploymentSnapshot>

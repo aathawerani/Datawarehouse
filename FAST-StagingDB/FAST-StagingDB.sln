@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "FAST-StagingDB", "FAST-StagingDB\FAST-StagingDB.dtproj", "{DECC091D-4F31-40EA-8331-E99FB319038D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DECC091D-4F31-40EA-8331-E99FB319038D}.Development|Default.ActiveCfg = Development
+		{DECC091D-4F31-40EA-8331-E99FB319038D}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

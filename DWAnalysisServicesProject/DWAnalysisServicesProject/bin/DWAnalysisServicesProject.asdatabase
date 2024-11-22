@@ -1,0 +1,2978 @@
+﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DWAnalysisServicesProject</ID>
+  <Name>DWAnalysisServicesProject</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SubjectProjectID</Name>
+      <Value>3bbade22-0f71-445a-95af-009b087f64e3</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CreateSubjectArea</Name>
+      <Value>True</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SubjectDataSourceID</Name>
+      <Value>FASTDB</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SubjectDSVID</Name>
+      <Value>FASTDB</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SubjectDSVName</Name>
+      <Value>FASTDB</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SubjectOwningSchema</Name>
+      <Value>dbo</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SubjectCreatePkeyOnDimTable</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SubjectCreateIndexes</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SubjectEnforceRefIntegrity</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SubjectPreserveData</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SubjectPopulateTimeTable</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:PKeyPrefix</Name>
+      <Value>PK</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:FKeyPrefix</Name>
+      <Value>FK</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Separator</Name>
+      <Value>_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DimAttrNameColumnSuffix</Name>
+      <Value>Name</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DimAttrCustRollUpColumnSuffix</Name>
+      <Value>CustomRollup</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DimAttrCustRollUpPropColumnSuffix</Name>
+      <Value>CustomRollupProperties</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DimAttrUnaryOperatorColumnSuffix</Name>
+      <Value>UnaryOperator</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DimAttrSkippedLevelsColumnSuffix</Name>
+      <Value>SkippedLevels</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DimAttrValueColumnSuffix</Name>
+      <Value>Value</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <LastUpdate>0001-01-01T00:00:00Z</LastUpdate>
+  <DataSourceImpersonationInfo>
+    <ImpersonationMode>Default</ImpersonationMode>
+    <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+  </DataSourceImpersonationInfo>
+  <Dimensions>
+    <Dimension>
+      <ID>Campus</ID>
+      <Name>Campus</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>FASTDB</DataSourceViewID>
+      </Source>
+      <UnknownMember>Visible</UnknownMember>
+      <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Attributes>
+        <Attribute>
+          <ID>Campus</ID>
+          <Name>Campus</Name>
+          <Usage>Key</Usage>
+          <EstimatedCount>3</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>BigInt</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Campus</TableID>
+                <ColumnID>CampusID</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Campus Name</AttributeID>
+              <Name>Campus Name</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Campus Name</ID>
+          <Name>Campus Name</Name>
+          <EstimatedCount>3</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Campus</TableID>
+                <ColumnID>CampusName</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension>
+      <ID>Student</ID>
+      <Name>Student</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>FASTDB</DataSourceViewID>
+      </Source>
+      <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Attributes>
+        <Attribute>
+          <ID>Student</ID>
+          <Name>Student</Name>
+          <Usage>Key</Usage>
+          <EstimatedCount>6000</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>BigInt</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Student</TableID>
+                <ColumnID>StudentID</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Student Name</AttributeID>
+              <Name>Student Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Father Name</AttributeID>
+              <Name>Father Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Gender</AttributeID>
+              <Name>Gender</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Date Of Birth</AttributeID>
+              <Name>Date Of Birth</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Education</AttributeID>
+              <Name>Education</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Address</AttributeID>
+              <Name>Address</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Roll Number</AttributeID>
+              <Name>Roll Number</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Student City</AttributeID>
+              <Name>Student City</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>MandatoryFilter</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Student Name</ID>
+          <Name>Student Name</Name>
+          <EstimatedCount>5834</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Student</TableID>
+                <ColumnID>StudentName</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>MandatoryFilter</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Father Name</ID>
+          <Name>Father Name</Name>
+          <EstimatedCount>5858</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Student</TableID>
+                <ColumnID>FatherName</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>MandatoryFilter</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Gender</ID>
+          <Name>Gender</Name>
+          <EstimatedCount>2</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Student</TableID>
+                <ColumnID>Gender</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Date Of Birth</ID>
+          <Name>Date Of Birth</Name>
+          <EstimatedCount>3726</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Student</TableID>
+                <ColumnID>DateOfBirth</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>FilteredList</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Education</ID>
+          <Name>Education</Name>
+          <EstimatedCount>6</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Student</TableID>
+                <ColumnID>Education</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Address</ID>
+          <Name>Address</Name>
+          <EstimatedCount>5998</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>250</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Student</TableID>
+                <ColumnID>Address</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>MandatoryFilter</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Roll Number</ID>
+          <Name>Roll Number</Name>
+          <EstimatedCount>4400</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Student</TableID>
+                <ColumnID>RollNumber</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>FilteredList</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Student City</ID>
+          <Name>Student City</Name>
+          <EstimatedCount>4</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>250</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Student</TableID>
+                <ColumnID>StudentCity</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension>
+      <ID>Degree</ID>
+      <Name>Degree</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>FASTDB</DataSourceViewID>
+      </Source>
+      <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Attributes>
+        <Attribute>
+          <ID>Degree</ID>
+          <Name>Degree</Name>
+          <Usage>Key</Usage>
+          <EstimatedCount>4</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>BigInt</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Degree</TableID>
+                <ColumnID>DegreeID</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Degree Name</AttributeID>
+              <Name>Degree Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Discipline</AttributeID>
+              <Name>Discipline</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Degree Name</ID>
+          <Name>Degree Name</Name>
+          <EstimatedCount>1</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Degree</TableID>
+                <ColumnID>DegreeName</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Discipline</ID>
+          <Name>Discipline</Name>
+          <EstimatedCount>4</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Degree</TableID>
+                <ColumnID>Discipline</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension>
+      <ID>Time</ID>
+      <Name>Time</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>FASTDB</DataSourceViewID>
+      </Source>
+      <UnknownMember>Visible</UnknownMember>
+      <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Attributes>
+        <Attribute>
+          <ID>Time</ID>
+          <Name>Time</Name>
+          <Usage>Key</Usage>
+          <EstimatedCount>5478</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Date</DataType>
+              <NullProcessing>UnknownMember</NullProcessing>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>PK_Date</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_Time</TableID>
+              <ColumnID>Date_Name</ColumnID>
+            </Source>
+          </NameColumn>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Year</AttributeID>
+              <Name>Year</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Year Name</AttributeID>
+              <Name>Year Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Half Year</AttributeID>
+              <Name>Half Year</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Half Year Name</AttributeID>
+              <Name>Half Year Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Month</AttributeID>
+              <Name>Month Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Day Of Year</AttributeID>
+              <Name>Day Of Year Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Day Of Half Year</AttributeID>
+              <Name>Day Of Half Year Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Day Of Month</AttributeID>
+              <Name>Day Of Month</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Day Of Month Name</AttributeID>
+              <Name>Day Of Month Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Month Of Year</AttributeID>
+              <Name>Month Of Year</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Month Of Year Name</AttributeID>
+              <Name>Month Of Year Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Month Of Half Year</AttributeID>
+              <Name>Month Of Half Year</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Month Of Half Year Name</AttributeID>
+              <Name>Month Of Half Year Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Half Year Of Year</AttributeID>
+              <Name>Half Year Of Year</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Half Year Of Year Name</AttributeID>
+              <Name>Half Year Of Year Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Reporting Year</AttributeID>
+              <Name>Reporting Year</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Reporting Year Name</AttributeID>
+              <Name>Reporting Year Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Reporting Half Year</AttributeID>
+              <Name>Reporting Half Year</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Reporting Half Year Name</AttributeID>
+              <Name>Reporting Half Year Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Reporting Month</AttributeID>
+              <Name>Reporting Month Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Reporting Day</AttributeID>
+              <Name>Reporting Day</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Reporting Day Name</AttributeID>
+              <Name>Reporting Day Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Reporting Day Of Year</AttributeID>
+              <Name>Reporting Day Of Year Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Reporting Day Of Half Year</AttributeID>
+              <Name>Reporting Day Of Half Year Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Reporting Day Of Month</AttributeID>
+              <Name>Reporting Day Of Month</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Reporting Day Of Month Name</AttributeID>
+              <Name>Reporting Day Of Month Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Reporting Month Of Year</AttributeID>
+              <Name>Reporting Month Of Year</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Reporting Month Of Year Name</AttributeID>
+              <Name>Reporting Month Of Year Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Reporting Month Of Half Year</AttributeID>
+              <Name>Reporting Month Of Half Year</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Reporting Month Of Half Year Name</AttributeID>
+              <Name>Reporting Month Of Half Year Name</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Reporting Half Year Of Year</AttributeID>
+              <Name>Reporting Half Year Of Year</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Reporting Half Year Of Year Name</AttributeID>
+              <Name>Reporting Half Year Of Year Name</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <InstanceSelection>MandatoryFilter</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Year</ID>
+          <Name>Year</Name>
+          <EstimatedCount>15</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Date</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Year</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Year Name</ID>
+          <Name>Year Name</Name>
+          <EstimatedCount>15</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Year_Name</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Half Year</ID>
+          <Name>Half Year</Name>
+          <EstimatedCount>30</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Date</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Half_Year</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Half Year Name</ID>
+          <Name>Half Year Name</Name>
+          <EstimatedCount>30</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Half_Year_Name</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Month</ID>
+          <Name>Month Name</Name>
+          <EstimatedCount>180</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Date</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Month</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_Time</TableID>
+              <ColumnID>Month_Name</ColumnID>
+            </Source>
+          </NameColumn>
+          <InstanceSelection>List</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Day Of Year</ID>
+          <Name>Day Of Year Name</Name>
+          <EstimatedCount>366</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Day_of_Year</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_Time</TableID>
+              <ColumnID>Day_of_Year_Name</ColumnID>
+            </Source>
+          </NameColumn>
+          <InstanceSelection>List</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Day Of Half Year</ID>
+          <Name>Day Of Half Year Name</Name>
+          <EstimatedCount>184</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Day_of_Half_Year</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_Time</TableID>
+              <ColumnID>Day_of_Half_Year_Name</ColumnID>
+            </Source>
+          </NameColumn>
+          <InstanceSelection>List</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Day Of Month</ID>
+          <Name>Day Of Month</Name>
+          <EstimatedCount>31</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Day_of_Month</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Day Of Month Name</ID>
+          <Name>Day Of Month Name</Name>
+          <EstimatedCount>31</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Day_of_Month_Name</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Month Of Year</ID>
+          <Name>Month Of Year</Name>
+          <EstimatedCount>12</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Month_of_Year</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Month Of Year Name</ID>
+          <Name>Month Of Year Name</Name>
+          <EstimatedCount>12</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Month_of_Year_Name</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Month Of Half Year</ID>
+          <Name>Month Of Half Year</Name>
+          <EstimatedCount>6</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Month_of_Half_Year</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Month Of Half Year Name</ID>
+          <Name>Month Of Half Year Name</Name>
+          <EstimatedCount>6</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Month_of_Half_Year_Name</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Half Year Of Year</ID>
+          <Name>Half Year Of Year</Name>
+          <EstimatedCount>2</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Half_Year_of_Year</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Half Year Of Year Name</ID>
+          <Name>Half Year Of Year Name</Name>
+          <EstimatedCount>2</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Half_Year_of_Year_Name</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Reporting Year</ID>
+          <Name>Reporting Year</Name>
+          <EstimatedCount>16</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Date</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Reporting_Year</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Reporting Year Name</ID>
+          <Name>Reporting Year Name</Name>
+          <EstimatedCount>16</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Reporting_Year_Name</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Reporting Half Year</ID>
+          <Name>Reporting Half Year</Name>
+          <EstimatedCount>31</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Date</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Reporting_Half_Year</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Reporting Half Year Name</ID>
+          <Name>Reporting Half Year Name</Name>
+          <EstimatedCount>31</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Reporting_Half_Year_Name</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Reporting Month</ID>
+          <Name>Reporting Month Name</Name>
+          <EstimatedCount>181</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Date</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Reporting_Month</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_Time</TableID>
+              <ColumnID>Reporting_Month_Name</ColumnID>
+            </Source>
+          </NameColumn>
+          <InstanceSelection>List</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Reporting Day</ID>
+          <Name>Reporting Day</Name>
+          <EstimatedCount>5478</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Date</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Reporting_Day</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>MandatoryFilter</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Reporting Day Name</ID>
+          <Name>Reporting Day Name</Name>
+          <EstimatedCount>5478</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Reporting_Day_Name</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>MandatoryFilter</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Reporting Day Of Year</ID>
+          <Name>Reporting Day Of Year Name</Name>
+          <EstimatedCount>371</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Reporting_Day_of_Year</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_Time</TableID>
+              <ColumnID>Reporting_Day_of_Year_Name</ColumnID>
+            </Source>
+          </NameColumn>
+          <InstanceSelection>List</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Reporting Day Of Half Year</ID>
+          <Name>Reporting Day Of Half Year Name</Name>
+          <EstimatedCount>189</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Reporting_Day_of_Half_Year</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_Time</TableID>
+              <ColumnID>Reporting_Day_of_Half_Year_Name</ColumnID>
+            </Source>
+          </NameColumn>
+          <InstanceSelection>List</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Reporting Day Of Month</ID>
+          <Name>Reporting Day Of Month</Name>
+          <EstimatedCount>42</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Reporting_Day_of_Month</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Reporting Day Of Month Name</ID>
+          <Name>Reporting Day Of Month Name</Name>
+          <EstimatedCount>42</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Reporting_Day_of_Month_Name</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Reporting Month Of Year</ID>
+          <Name>Reporting Month Of Year</Name>
+          <EstimatedCount>12</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Reporting_Month_of_Year</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Reporting Month Of Year Name</ID>
+          <Name>Reporting Month Of Year Name</Name>
+          <EstimatedCount>12</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Reporting_Month_of_Year_Name</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Reporting Month Of Half Year</ID>
+          <Name>Reporting Month Of Half Year</Name>
+          <EstimatedCount>6</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Reporting_Month_of_Half_Year</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Reporting Month Of Half Year Name</ID>
+          <Name>Reporting Month Of Half Year Name</Name>
+          <EstimatedCount>6</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Reporting_Month_of_Half_Year_Name</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Reporting Half Year Of Year</ID>
+          <Name>Reporting Half Year Of Year</Name>
+          <EstimatedCount>2</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Integer</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Reporting_Half_Year_of_Year</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+        <Attribute>
+          <ID>Reporting Half Year Of Year Name</ID>
+          <Name>Reporting Half Year Of Year Name</Name>
+          <EstimatedCount>2</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>50</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Time</TableID>
+                <ColumnID>Reporting_Half_Year_of_Year_Name</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy>
+          <ID>Reporting Day Of Month - Reporting Day Of Half Year Name - Reporting Day Of Year Name</ID>
+          <Name>Reporting Day Of Month - Reporting Day Of Half Year Name - Reporting Day Of Year Name</Name>
+          <Levels>
+            <Level>
+              <ID>Reporting Day Of Month</ID>
+              <Name>Reporting Day Of Month</Name>
+              <SourceAttributeID>Reporting Day Of Month</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Reporting Day Of Half Year Name</ID>
+              <Name>Reporting Day Of Half Year Name</Name>
+              <SourceAttributeID>Reporting Day Of Half Year</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Reporting Day Of Year Name</ID>
+              <Name>Reporting Day Of Year Name</Name>
+              <SourceAttributeID>Reporting Day Of Year</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Time</ID>
+              <Name>Time</Name>
+              <SourceAttributeID>Time</SourceAttributeID>
+            </Level>
+          </Levels>
+        </Hierarchy>
+        <Hierarchy>
+          <ID>Year - Half Year - Month Name</ID>
+          <Name>Year - Half Year - Month Name</Name>
+          <Levels>
+            <Level>
+              <ID>Year</ID>
+              <Name>Year</Name>
+              <SourceAttributeID>Year</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Half Year</ID>
+              <Name>Half Year</Name>
+              <SourceAttributeID>Half Year</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Month Name</ID>
+              <Name>Month Name</Name>
+              <SourceAttributeID>Month</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Time</ID>
+              <Name>Time</Name>
+              <SourceAttributeID>Time</SourceAttributeID>
+            </Level>
+          </Levels>
+        </Hierarchy>
+        <Hierarchy>
+          <ID>Month Of Half Year - Month Of Year - Month Name</ID>
+          <Name>Month Of Half Year - Month Of Year - Month Name</Name>
+          <Levels>
+            <Level>
+              <ID>Month Of Half Year</ID>
+              <Name>Month Of Half Year</Name>
+              <SourceAttributeID>Month Of Half Year</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Month Of Year</ID>
+              <Name>Month Of Year</Name>
+              <SourceAttributeID>Month Of Year</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Month Name</ID>
+              <Name>Month Name</Name>
+              <SourceAttributeID>Month</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Time</ID>
+              <Name>Time</Name>
+              <SourceAttributeID>Time</SourceAttributeID>
+            </Level>
+          </Levels>
+        </Hierarchy>
+        <Hierarchy>
+          <ID>Reporting Half Year - Reporting Month Name</ID>
+          <Name>Reporting Half Year - Reporting Month Name</Name>
+          <Levels>
+            <Level>
+              <ID>Reporting Half Year</ID>
+              <Name>Reporting Half Year</Name>
+              <SourceAttributeID>Reporting Half Year</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Reporting Month Name</ID>
+              <Name>Reporting Month Name</Name>
+              <SourceAttributeID>Reporting Month</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Time</ID>
+              <Name>Time</Name>
+              <SourceAttributeID>Time</SourceAttributeID>
+            </Level>
+          </Levels>
+        </Hierarchy>
+        <Hierarchy>
+          <ID>Reporting Month Of Half Year - Reporting Month Of Year - Reporting Month Name</ID>
+          <Name>Reporting Month Of Half Year - Reporting Month Of Year - Reporting Month Name</Name>
+          <Levels>
+            <Level>
+              <ID>Reporting Month Of Half Year</ID>
+              <Name>Reporting Month Of Half Year</Name>
+              <SourceAttributeID>Reporting Month Of Half Year</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Reporting Month Of Year</ID>
+              <Name>Reporting Month Of Year</Name>
+              <SourceAttributeID>Reporting Month Of Year</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Reporting Month Name</ID>
+              <Name>Reporting Month Name</Name>
+              <SourceAttributeID>Reporting Month</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>Time</ID>
+              <Name>Time</Name>
+              <SourceAttributeID>Time</SourceAttributeID>
+            </Level>
+          </Levels>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension>
+      <ID>Courses</ID>
+      <Name>Courses</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>FASTDB</DataSourceViewID>
+      </Source>
+      <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Attributes>
+        <Attribute>
+          <ID>Courses</ID>
+          <Name>Courses</Name>
+          <Usage>Key</Usage>
+          <EstimatedCount>89</EstimatedCount>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>BigInt</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_Courses</TableID>
+                <ColumnID>CourseID</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <NameColumn>
+            <DataType>WChar</DataType>
+            <DataSize>50</DataSize>
+            <Source xsi:type="ColumnBinding">
+              <TableID>dbo_Courses</TableID>
+              <ColumnID>CourseCode</ColumnID>
+            </Source>
+          </NameColumn>
+          <InstanceSelection>DropDown</InstanceSelection>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <Cubes>
+    <Cube>
+      <ID>FASTDB</ID>
+      <Name>FASTDB</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="17" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8647" scrolltop="1933" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="27120" y="14711" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Time (dbo.Time)" left="6824" top="13214" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="6059" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="00080000ab17000088130000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_Time" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="StudentStatus (dbo.StudentStatus)" left="20" top="9672" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000f40d0000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_StudentStatus" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Registration (dbo.Registration)" left="10820" top="7242" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3466" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000800008a0d0000f40d0000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_Registration" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Campus (dbo.Campus)" left="5420" top="8088" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="00080000b80b000057070000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_Campus" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Student (dbo.Student)" left="11053" top="0" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000ea120000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_Student" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Courses (dbo.Courses)" left="20" top="15644" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="00080000b80b000057070000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_Courses" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Degree (dbo.Degree)" left="15283" top="20614" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000fe080000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_Degree" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="9454" top="10514" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="2299" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[Registration-Time]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="10" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="9853" y="13214" />
+                  <point x="9853" y="12014" />
+                  <point x="11453" y="12014" />
+                  <point x="11453" y="10814" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="11158" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="4404" height="4956" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[StudentStatus-Time]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="30" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="6824" y="15714" />
+                  <point x="4922" y="15714" />
+                  <point x="4922" y="11458" />
+                  <point x="3020" y="11458" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="8628" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="2580" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[FK_StudentStatus_Campus]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="12" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="5420" y="9027" />
+                  <point x="4220" y="9027" />
+                  <point x="4220" y="10908" />
+                  <point x="3020" y="10908" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="2022" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="8633" height="8636" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[FK_StudentStatus_Student]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="2" sourceattachpoint="18" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="11053" y="2421" />
+                  <point x="7037" y="2421" />
+                  <point x="7037" y="10358" />
+                  <point x="3020" y="10358" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="1121" top="12944" logicalid="12" controlid="12" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[FK_StudentStatus_Courses]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="2" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="1520" y="15644" />
+                  <point x="1520" y="13244" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="11708" logicalid="13" controlid="13" masterid="0" hint1="0" hint2="0" width="12863" height="10457" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[FK_StudentStatus_Degree]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="2" sourceattachpoint="12" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="15283" y="21765" />
+                  <point x="9152" y="21765" />
+                  <point x="9152" y="12008" />
+                  <point x="3020" y="12008" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="8120" top="8628" logicalid="14" controlid="14" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[FK_Registration_Campus]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="13" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="8420" y="9027" />
+                  <point x="9620" y="9027" />
+                  <point x="9620" y="9028" />
+                  <point x="10820" y="9028" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="12154" top="4343" logicalid="15" controlid="15" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[FK_Registration_Student]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="3" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="12553" y="4842" />
+                  <point x="12553" y="7242" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="12803" top="10514" logicalid="16" controlid="16" masterid="0" hint1="0" hint2="0" width="4380" height="10600" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[FK_Registration_Degree]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="3" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="16783" y="20614" />
+                  <point x="16783" y="15714" />
+                  <point x="13103" y="15714" />
+                  <point x="13103" y="10814" />
+                </connector>
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-8647</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>1933</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>20</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>75</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Dimensions>
+        <Dimension>
+          <ID>Campus</ID>
+          <Name>Campus</Name>
+          <DimensionID>Campus</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Campus</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Campus Name</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension>
+          <ID>Student</ID>
+          <Name>Student</Name>
+          <DimensionID>Student</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Student</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Student Name</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Father Name</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Gender</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Date Of Birth</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Education</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Address</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Roll Number</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Student City</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension>
+          <ID>Degree</ID>
+          <Name>Degree</Name>
+          <DimensionID>Degree</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Degree</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Degree Name</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Discipline</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension>
+          <ID>Courses</ID>
+          <Name>Courses</Name>
+          <DimensionID>Courses</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Courses</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension>
+          <ID>Time</ID>
+          <Name>Time</Name>
+          <DimensionID>Time</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Time</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Year Name</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Half Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Half Year Name</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Month</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Day Of Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Day Of Half Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Day Of Month</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Day Of Month Name</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Month Of Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Month Of Year Name</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Month Of Half Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Month Of Half Year Name</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Half Year Of Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Half Year Of Year Name</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Reporting Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Reporting Year Name</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Reporting Half Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Reporting Half Year Name</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Reporting Month</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Reporting Day</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Reporting Day Name</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Reporting Day Of Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Reporting Day Of Half Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Reporting Day Of Month</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Reporting Day Of Month Name</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Reporting Month Of Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Reporting Month Of Year Name</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Reporting Month Of Half Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Reporting Month Of Half Year Name</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Reporting Half Year Of Year</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Reporting Half Year Of Year Name</AttributeID>
+            </Attribute>
+          </Attributes>
+          <Hierarchies>
+            <Hierarchy>
+              <HierarchyID>Reporting Day Of Month - Reporting Day Of Half Year Name - Reporting Day Of Year Name</HierarchyID>
+            </Hierarchy>
+            <Hierarchy>
+              <HierarchyID>Year - Half Year - Month Name</HierarchyID>
+            </Hierarchy>
+            <Hierarchy>
+              <HierarchyID>Month Of Half Year - Month Of Year - Month Name</HierarchyID>
+            </Hierarchy>
+            <Hierarchy>
+              <HierarchyID>Reporting Half Year - Reporting Month Name</HierarchyID>
+            </Hierarchy>
+            <Hierarchy>
+              <HierarchyID>Reporting Month Of Half Year - Reporting Month Of Year - Reporting Month Name</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup>
+          <ID>Registration</ID>
+          <Name>Registration</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Measures>
+            <Measure>
+              <ID>Registration Count</ID>
+              <Name>Registration Count</Name>
+              <AggregateFunction>Count</AggregateFunction>
+              <Source>
+                <DataType>Integer</DataType>
+                <DataSize>4</DataSize>
+                <Source xsi:type="RowBinding">
+                  <TableID>dbo_Registration</TableID>
+                </Source>
+              </Source>
+            </Measure>
+          </Measures>
+          <StorageMode>Molap</StorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <Dimensions>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>Campus</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Campus</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>BigInt</DataType>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_Registration</TableID>
+                        <ColumnID>CampusID</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>Student</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Student</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>BigInt</DataType>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_Registration</TableID>
+                        <ColumnID>StudentID</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>Degree</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Degree</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>BigInt</DataType>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_Registration</TableID>
+                        <ColumnID>DegreeID</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>Time</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Time</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Date</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_Registration</TableID>
+                        <ColumnID>RegistrationDate</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Partitions>
+            <Partition>
+              <ID>Registration</ID>
+              <Name>Registration</Name>
+              <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+              <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+              <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+              <State>Unprocessed</State>
+              <Source xsi:type="DsvTableBinding">
+                <DataSourceViewID>FASTDB</DataSourceViewID>
+                <TableID>dbo_Registration</TableID>
+              </Source>
+              <StorageMode>Molap</StorageMode>
+              <CurrentStorageMode>Molap</CurrentStorageMode>
+              <ProcessingMode>Regular</ProcessingMode>
+            </Partition>
+          </Partitions>
+        </MeasureGroup>
+        <MeasureGroup>
+          <ID>Student Status</ID>
+          <Name>Student Status</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Measures>
+            <Measure>
+              <ID>Marks</ID>
+              <Name>Marks</Name>
+              <Source>
+                <DataType>Double</DataType>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_StudentStatus</TableID>
+                  <ColumnID>Marks</ColumnID>
+                </Source>
+              </Source>
+            </Measure>
+          </Measures>
+          <StorageMode>Molap</StorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <Dimensions>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>Campus</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Campus</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>BigInt</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_StudentStatus</TableID>
+                        <ColumnID>CampusID</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>Student</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Student</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>BigInt</DataType>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_StudentStatus</TableID>
+                        <ColumnID>StudentID</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>Courses</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Courses</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>BigInt</DataType>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_StudentStatus</TableID>
+                        <ColumnID>CourseID</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>Degree</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Degree</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>BigInt</DataType>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_StudentStatus</TableID>
+                        <ColumnID>DegreeID</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>Time</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Time</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Date</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_StudentStatus</TableID>
+                        <ColumnID>Session</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Partitions>
+            <Partition>
+              <ID>Student Status</ID>
+              <Name>Student Status</Name>
+              <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+              <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+              <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+              <State>Unprocessed</State>
+              <Source xsi:type="DsvTableBinding">
+                <DataSourceViewID>FASTDB</DataSourceViewID>
+                <TableID>dbo_StudentStatus</TableID>
+              </Source>
+              <StorageMode>Molap</StorageMode>
+              <CurrentStorageMode>Molap</CurrentStorageMode>
+              <ProcessingMode>Regular</ProcessingMode>
+            </Partition>
+          </Partitions>
+        </MeasureGroup>
+      </MeasureGroups>
+      <Source>
+        <DataSourceViewID>FASTDB</DataSourceViewID>
+      </Source>
+    </Cube>
+  </Cubes>
+  <DataSources>
+    <DataSource xsi:type="RelationalDataSource">
+      <ID>FASTDB</ID>
+      <Name>FASTDB</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <ConnectionString>Provider=SQLOLEDB.1;Data Source=aliahmed-116;Password=;User ID=;Initial Catalog=FASTDB</ConnectionString>
+      <ConnectionStringSecurity>PasswordRemoved</ConnectionStringSecurity>
+      <ImpersonationInfo>
+        <ImpersonationMode>ImpersonateServiceAccount</ImpersonationMode>
+        <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+      </ImpersonationInfo>
+      <Timeout>PT0S</Timeout>
+    </DataSource>
+  </DataSources>
+  <DataSourceViews>
+    <DataSourceView>
+      <ID>FASTDB</ID>
+      <Name>FASTDB</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+          <Value>_ALL_TABLES_</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+          <Value></Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+          <Value>
+            <Layouts xmlns="">
+              <Diagram>
+                <Name>_ALL_TABLES_</Name>
+                <DiagramLayout>
+                  <dds>
+                    <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="17" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10997" scrolltop="10984" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="27649" y="16034" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                      <font>
+                        <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+                      </font>
+                      <mouseicon>
+                        <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                      </mouseicon>
+                    </diagram>
+                    <layoutmanager>
+                      <ddsxmlobj />
+                    </layoutmanager>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Campus (dbo.Campus)" left="11053" top="19674" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="00080000b80b000057070000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Campus" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Courses (dbo.Courses)" left="20" top="19462" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="00080000b80b000057070000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Courses" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Degree (dbo.Degree)" left="11053" top="9000" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000fe080000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Degree" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Registration (dbo.Registration)" left="10820" top="13702" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3466" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="000800008a0d0000f40d0000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Registration" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Student (dbo.Student)" left="5420" top="13067" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000ea120000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Student" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="StudentStatus (dbo.StudentStatus)" left="20" top="13490" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000f40d0000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_StudentStatus" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.1" tooltip="Time (dbo.Time)" left="4888" top="23707" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="6059" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobjectstreaminitwrapper binary="00080000ab17000088130000" />
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dbo_Time" vartype="8" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <shape groupshapeid="0" groupnode="0" />
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="12154" top="16974" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Registration_Campus]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="12553" y="19674" />
+                        <point x="12553" y="17274" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="8120" top="15089" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Registration_Student]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="4" sourceattachpoint="19" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="8420" y="15488" />
+                        <point x="10820" y="15488" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="12154" top="10803" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_Registration_Degree]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="12553" y="11302" />
+                        <point x="12553" y="13702" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="16626" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="8633" height="4387" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_StudentStatus_Campus]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="6" sourceattachpoint="12" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="11053" y="20613" />
+                        <point x="7037" y="20613" />
+                        <point x="7037" y="16926" />
+                        <point x="3020" y="16926" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="14976" logicalid="12" controlid="12" masterid="0" hint1="0" hint2="0" width="3000" height="912" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_StudentStatus_Student]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="6" sourceattachpoint="18" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="5420" y="15488" />
+                        <point x="4220" y="15488" />
+                        <point x="4220" y="15276" />
+                        <point x="3020" y="15276" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="1121" top="16762" logicalid="13" controlid="13" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_StudentStatus_Courses]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="6" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="1520" y="19462" />
+                        <point x="1520" y="17062" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="9752" logicalid="14" controlid="14" masterid="0" hint1="0" hint2="0" width="8633" height="4174" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[FK_StudentStatus_Degree]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="6" sourceattachpoint="12" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="11053" y="10151" />
+                        <point x="7037" y="10151" />
+                        <point x="7037" y="13626" />
+                        <point x="3020" y="13626" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="10268" top="16974" logicalid="15" controlid="15" masterid="0" hint1="0" hint2="0" width="1485" height="7233" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[Registration-Time]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="4" sourceattachpoint="20" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="10667" y="23707" />
+                        <point x="10667" y="20491" />
+                        <point x="11453" y="20491" />
+                        <point x="11453" y="17274" />
+                      </connector>
+                    </ddscontrol>
+                    <ddscontrol controlprogid="MSDDS.Polyline" left="2320" top="16762" logicalid="16" controlid="16" masterid="0" hint1="0" hint2="0" width="3247" height="7445" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                      <control>
+                        <ddsxmlobj>
+                          <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                        </ddsxmlobj>
+                      </control>
+                      <layoutobject>
+                        <ddsxmlobj>
+                          <property name="LogicalObject" value="dataSet.Relations[StudentStatus-Time]" vartype="8" />
+                          <property name="Virtual" value="0" vartype="11" />
+                          <property name="VisibleAP" value="0" vartype="3" />
+                        </ddsxmlobj>
+                      </layoutobject>
+                      <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="6" sourceattachpoint="0" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                        <point x="5167" y="23707" />
+                        <point x="5167" y="20385" />
+                        <point x="2620" y="20385" />
+                        <point x="2620" y="17062" />
+                      </connector>
+                    </ddscontrol>
+                  </dds>
+</DiagramLayout>
+                <ShowRelationshipNames>False</ShowRelationshipNames>
+                <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+                <DiagramViewPortLeft>-10997</DiagramViewPortLeft>
+                <DiagramViewPortTop>10984</DiagramViewPortTop>
+                <DiagramBoundingLeft>0</DiagramBoundingLeft>
+                <DiagramBoundingTop>0</DiagramBoundingTop>
+                <DiagramZoom>75</DiagramZoom>
+              </Diagram>
+            </Layouts>
+          </Value>
+        </Annotation>
+      </Annotations>
+      <DataSourceID>FASTDB</DataSourceID>
+      <Schema>
+        <xs:schema id="FASTDB" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+          <xs:element name="FASTDB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="1cc931e5-8fd4-4440-aac9-2053e45c8c4b">
+            <xs:complexType>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="dbo_Campus" msprop:FriendlyName="Campus" msprop:DbSchemaName="dbo" msprop:DbTableName="Campus" msprop:design-time-name="c788d601-d5f8-490d-9c8d-46599d37c32c" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="CampusID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="CampusID" msprop:DbColumnName="CampusID" msprop:design-time-name="e72aec8a-24d4-4ea9-b1cd-c52ab8df4c09" type="xs:long" />
+                      <xs:element name="CampusName" msprop:FriendlyName="CampusName" msprop:DbColumnName="CampusName" msprop:design-time-name="3585a212-259d-492c-aa3e-ef04fdc938ed" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_Courses" msprop:FriendlyName="Courses" msprop:DbSchemaName="dbo" msprop:DbTableName="Courses" msprop:design-time-name="af85b620-f250-4534-adb1-2f16095ffdcd" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="CourseID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="CourseID" msprop:DbColumnName="CourseID" msprop:design-time-name="80400709-4099-4a71-a6f0-b242793e222a" type="xs:long" />
+                      <xs:element name="CourseCode" msprop:FriendlyName="CourseCode" msprop:DbColumnName="CourseCode" msprop:design-time-name="407aa71c-c597-4892-a76c-866eea29f298" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_Degree" msprop:FriendlyName="Degree" msprop:DbSchemaName="dbo" msprop:DbTableName="Degree" msprop:design-time-name="bd9bd084-2361-47cd-a4a6-55ddf1d23126" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="DegreeID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="DegreeID" msprop:DbColumnName="DegreeID" msprop:design-time-name="bba7740b-687a-4f52-b414-3c990a602915" type="xs:long" />
+                      <xs:element name="DegreeName" msprop:FriendlyName="DegreeName" msprop:DbColumnName="DegreeName" msprop:design-time-name="94acc0f3-680d-4a11-bf6f-d1f716cb4d45" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Discipline" msprop:FriendlyName="Discipline" msprop:DbColumnName="Discipline" msprop:design-time-name="4f8a6f3a-c724-4219-bd33-593c780b8144" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_Registration" msprop:FriendlyName="Registration" msprop:DbSchemaName="dbo" msprop:DbTableName="Registration" msprop:design-time-name="9f53c59a-cae5-4357-a6d2-0545137d331b" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="StudentID" msprop:FriendlyName="StudentID" msprop:DbColumnName="StudentID" msprop:design-time-name="8ad9b5b2-e131-4e6b-8988-bbd58d44eda7" type="xs:long" />
+                      <xs:element name="CampusID" msprop:FriendlyName="CampusID" msprop:DbColumnName="CampusID" msprop:design-time-name="c23a7a52-408a-48f3-adc0-1fbb39630d01" type="xs:long" />
+                      <xs:element name="DegreeID" msprop:FriendlyName="DegreeID" msprop:DbColumnName="DegreeID" msprop:design-time-name="25868ef3-7420-4957-afef-a9f17209a406" type="xs:long" />
+                      <xs:element name="RegistrationDate" msprop:FriendlyName="RegistrationDate" msprop:DbColumnName="RegistrationDate" msprop:design-time-name="6d8b20fa-4f06-4019-9414-dd99f3008016" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="RegistrationStatus" msprop:FriendlyName="RegistrationStatus" msprop:DbColumnName="RegistrationStatus" msprop:design-time-name="7a1e4963-2386-4d20-818e-62bc122b5e83" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="DegreeStatus" msprop:FriendlyName="DegreeStatus" msprop:DbColumnName="DegreeStatus" msprop:design-time-name="6b09f9e7-e132-4597-9d4b-d1516b98be4e" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_Student" msprop:FriendlyName="Student" msprop:DbSchemaName="dbo" msprop:DbTableName="Student" msprop:design-time-name="6d0b0375-7e7c-422e-b2ab-9cd8aae7ebdc" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="StudentID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="StudentID" msprop:DbColumnName="StudentID" msprop:design-time-name="49bb2f75-c9a8-46de-a894-b82df60d2eb8" type="xs:long" />
+                      <xs:element name="StudentName" msprop:FriendlyName="StudentName" msprop:DbColumnName="StudentName" msprop:design-time-name="6f2ef980-56ba-4f8f-ad30-35cb832ceffa" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="FatherName" msprop:FriendlyName="FatherName" msprop:DbColumnName="FatherName" msprop:design-time-name="e75446a6-7aae-416b-86bb-d387881c7a45" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Gender" msprop:FriendlyName="Gender" msprop:DbColumnName="Gender" msprop:design-time-name="1b00fbcc-87b2-4199-9f57-2b7da75660f4" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="DateOfBirth" msprop:FriendlyName="DateOfBirth" msprop:DbColumnName="DateOfBirth" msprop:design-time-name="d91924d9-372d-49ce-b4d7-84ff49d38b02" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Education" msprop:FriendlyName="Education" msprop:DbColumnName="Education" msprop:design-time-name="0b57b08d-0997-4022-8ecb-ccf8205a716d" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Address" msprop:FriendlyName="Address" msprop:DbColumnName="Address" msprop:design-time-name="9bcac72e-de92-4b6c-b615-5334043a3336" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="250" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="RollNumber" msprop:FriendlyName="RollNumber" msprop:DbColumnName="RollNumber" msprop:design-time-name="d736051a-dcae-4ec3-8d52-97bb785fa705" type="xs:int" minOccurs="0" />
+                      <xs:element name="StudentCity" msprop:FriendlyName="StudentCity" msprop:DbColumnName="StudentCity" msprop:design-time-name="70f11050-45e1-432e-846a-c25ef7223323" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="250" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_StudentStatus" msprop:FriendlyName="StudentStatus" msprop:DbSchemaName="dbo" msprop:DbTableName="StudentStatus" msprop:design-time-name="6f2e4ff7-1a09-427d-b5c5-74f7511486ad" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="StudentID" msprop:FriendlyName="StudentID" msprop:DbColumnName="StudentID" msprop:design-time-name="8f365e39-843f-4d5c-b83a-6c3128606468" type="xs:long" />
+                      <xs:element name="CourseID" msprop:FriendlyName="CourseID" msprop:DbColumnName="CourseID" msprop:design-time-name="20d6a325-a5f0-44ca-8506-f3c46a992d84" type="xs:long" />
+                      <xs:element name="DegreeID" msprop:FriendlyName="DegreeID" msprop:DbColumnName="DegreeID" msprop:design-time-name="c3d5540d-7ed6-4c04-b322-ddfe35be2163" type="xs:long" />
+                      <xs:element name="Marks" msprop:FriendlyName="Marks" msprop:DbColumnName="Marks" msprop:design-time-name="12c00693-13b4-4306-aada-ba240c4f005d" type="xs:decimal" minOccurs="0" />
+                      <xs:element name="CampusID" msprop:FriendlyName="CampusID" msprop:DbColumnName="CampusID" msprop:design-time-name="0f2ccd63-9223-41a8-8a9d-feab87e025f9" type="xs:long" minOccurs="0" />
+                      <xs:element name="Session" msprop:FriendlyName="Session" msprop:DbColumnName="Session" msprop:design-time-name="c6e7070f-aaf0-4109-8350-b70b2e6a7112" type="xs:dateTime" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_Time" msprop:FriendlyName="Time" msprop:DbSchemaName="dbo" msprop:DbTableName="Time" msprop:design-time-name="e1c85e88-64c6-49c5-a61e-d95d6c65719e" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="PK_Date" msprop:FriendlyName="PK_Date" msprop:DbColumnName="PK_Date" msprop:design-time-name="b19732a0-907a-4780-9ba1-0578e6066f14" type="xs:dateTime" />
+                      <xs:element name="Date_Name" msprop:FriendlyName="Date_Name" msprop:DbColumnName="Date_Name" msprop:design-time-name="fd521b11-9306-492f-b5d4-ae70175922ce" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Year" msprop:FriendlyName="Year" msprop:DbColumnName="Year" msprop:design-time-name="0222d6c3-02b0-42bf-affa-dfca00aacc19" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="Year_Name" msprop:FriendlyName="Year_Name" msprop:DbColumnName="Year_Name" msprop:design-time-name="e4f08ab4-7ce6-4719-9ccd-cfda0a6aa2a2" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Half_Year" msprop:FriendlyName="Half_Year" msprop:DbColumnName="Half_Year" msprop:design-time-name="92572e87-eb35-41db-9394-75fd478ffd4b" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="Half_Year_Name" msprop:FriendlyName="Half_Year_Name" msprop:DbColumnName="Half_Year_Name" msprop:design-time-name="3690e911-c7d1-4201-bc30-5e9ea8e72791" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Month" msprop:FriendlyName="Month" msprop:DbColumnName="Month" msprop:design-time-name="3a18dbcd-f283-4a7d-8ade-f09c32bb6d9a" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="Month_Name" msprop:FriendlyName="Month_Name" msprop:DbColumnName="Month_Name" msprop:design-time-name="1404f800-1deb-4e8f-9f13-095689eda31a" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Day_of_Year" msprop:FriendlyName="Day_of_Year" msprop:DbColumnName="Day_of_Year" msprop:design-time-name="e87397d2-77ed-4a08-bb8c-7b7cf8d116bd" type="xs:int" minOccurs="0" />
+                      <xs:element name="Day_of_Year_Name" msprop:FriendlyName="Day_of_Year_Name" msprop:DbColumnName="Day_of_Year_Name" msprop:design-time-name="a28d5926-2ec9-4df2-bb7f-07ef91094b6a" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Day_of_Half_Year" msprop:FriendlyName="Day_of_Half_Year" msprop:DbColumnName="Day_of_Half_Year" msprop:design-time-name="9e290ab3-3560-4aeb-9a89-0f14b9d03175" type="xs:int" minOccurs="0" />
+                      <xs:element name="Day_of_Half_Year_Name" msprop:FriendlyName="Day_of_Half_Year_Name" msprop:DbColumnName="Day_of_Half_Year_Name" msprop:design-time-name="c7f58f3e-d13f-43e5-bf1d-257dc1b68c49" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Day_of_Month" msprop:FriendlyName="Day_of_Month" msprop:DbColumnName="Day_of_Month" msprop:design-time-name="d2411fd2-8afd-416a-a091-eae621a4dc01" type="xs:int" minOccurs="0" />
+                      <xs:element name="Day_of_Month_Name" msprop:FriendlyName="Day_of_Month_Name" msprop:DbColumnName="Day_of_Month_Name" msprop:design-time-name="ff7d4ab1-367a-494e-a041-101cc5027284" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Month_of_Year" msprop:FriendlyName="Month_of_Year" msprop:DbColumnName="Month_of_Year" msprop:design-time-name="48a811da-4f93-4b46-9cb0-5a6ab54f3a71" type="xs:int" minOccurs="0" />
+                      <xs:element name="Month_of_Year_Name" msprop:FriendlyName="Month_of_Year_Name" msprop:DbColumnName="Month_of_Year_Name" msprop:design-time-name="ac9b2346-decc-43b8-be51-47259907675f" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Month_of_Half_Year" msprop:FriendlyName="Month_of_Half_Year" msprop:DbColumnName="Month_of_Half_Year" msprop:design-time-name="75223980-4a82-4886-89e2-76213c7f8e5e" type="xs:int" minOccurs="0" />
+                      <xs:element name="Month_of_Half_Year_Name" msprop:FriendlyName="Month_of_Half_Year_Name" msprop:DbColumnName="Month_of_Half_Year_Name" msprop:design-time-name="e6809ebf-7ab1-4128-b3c6-ca019ddab93f" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Half_Year_of_Year" msprop:FriendlyName="Half_Year_of_Year" msprop:DbColumnName="Half_Year_of_Year" msprop:design-time-name="76fc9e9f-7900-4605-a366-76cc4cec303d" type="xs:int" minOccurs="0" />
+                      <xs:element name="Half_Year_of_Year_Name" msprop:FriendlyName="Half_Year_of_Year_Name" msprop:DbColumnName="Half_Year_of_Year_Name" msprop:design-time-name="4502fdb7-1b92-4eb7-86dc-406b48a17fbb" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Reporting_Year" msprop:FriendlyName="Reporting_Year" msprop:DbColumnName="Reporting_Year" msprop:design-time-name="a398ab82-4e06-4d71-a08b-6809ad14fd22" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="Reporting_Year_Name" msprop:FriendlyName="Reporting_Year_Name" msprop:DbColumnName="Reporting_Year_Name" msprop:design-time-name="e6f7f404-5be2-4aa1-85d3-06e5a2e61c18" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Reporting_Half_Year" msprop:FriendlyName="Reporting_Half_Year" msprop:DbColumnName="Reporting_Half_Year" msprop:design-time-name="0875aaa5-4d31-4904-bd12-af33c00b7dd0" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="Reporting_Half_Year_Name" msprop:FriendlyName="Reporting_Half_Year_Name" msprop:DbColumnName="Reporting_Half_Year_Name" msprop:design-time-name="6155ce59-2d49-48c0-9dd3-faba4c9db90a" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Reporting_Month" msprop:FriendlyName="Reporting_Month" msprop:DbColumnName="Reporting_Month" msprop:design-time-name="5f2ff77a-1a00-4141-8e1e-a8100f6c4400" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="Reporting_Month_Name" msprop:FriendlyName="Reporting_Month_Name" msprop:DbColumnName="Reporting_Month_Name" msprop:design-time-name="44a74e76-49d1-4485-9883-7d1d601954e1" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Reporting_Day" msprop:FriendlyName="Reporting_Day" msprop:DbColumnName="Reporting_Day" msprop:design-time-name="2a290e36-2029-4c3d-8216-df956e46f003" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="Reporting_Day_Name" msprop:FriendlyName="Reporting_Day_Name" msprop:DbColumnName="Reporting_Day_Name" msprop:design-time-name="dfc6c6be-8a0c-4a8a-abfc-984f9452d1f0" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Reporting_Day_of_Year" msprop:FriendlyName="Reporting_Day_of_Year" msprop:DbColumnName="Reporting_Day_of_Year" msprop:design-time-name="6b854316-39f4-4ba8-a7a0-1ee79d1412d7" type="xs:int" minOccurs="0" />
+                      <xs:element name="Reporting_Day_of_Year_Name" msprop:FriendlyName="Reporting_Day_of_Year_Name" msprop:DbColumnName="Reporting_Day_of_Year_Name" msprop:design-time-name="7b74929c-bf3d-4ee5-a282-135f204662fe" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Reporting_Day_of_Half_Year" msprop:FriendlyName="Reporting_Day_of_Half_Year" msprop:DbColumnName="Reporting_Day_of_Half_Year" msprop:design-time-name="fcb8136b-8417-4eb3-80c6-cb94cc6a1c0a" type="xs:int" minOccurs="0" />
+                      <xs:element name="Reporting_Day_of_Half_Year_Name" msprop:FriendlyName="Reporting_Day_of_Half_Year_Name" msprop:DbColumnName="Reporting_Day_of_Half_Year_Name" msprop:design-time-name="12c9c0d7-09e5-448f-b0bd-c0f122093dd5" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Reporting_Day_of_Month" msprop:FriendlyName="Reporting_Day_of_Month" msprop:DbColumnName="Reporting_Day_of_Month" msprop:design-time-name="210d5757-fb1c-4a17-89bf-493a1b24db21" type="xs:int" minOccurs="0" />
+                      <xs:element name="Reporting_Day_of_Month_Name" msprop:FriendlyName="Reporting_Day_of_Month_Name" msprop:DbColumnName="Reporting_Day_of_Month_Name" msprop:design-time-name="a9f87fa1-ce7c-49d9-9a40-570a73dcfca1" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Reporting_Month_of_Year" msprop:FriendlyName="Reporting_Month_of_Year" msprop:DbColumnName="Reporting_Month_of_Year" msprop:design-time-name="1fe3ddd0-6955-422a-88a5-7df0187add1e" type="xs:int" minOccurs="0" />
+                      <xs:element name="Reporting_Month_of_Year_Name" msprop:FriendlyName="Reporting_Month_of_Year_Name" msprop:DbColumnName="Reporting_Month_of_Year_Name" msprop:design-time-name="ffd9e256-e095-42a0-ad0c-f5d8bceb62b8" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Reporting_Month_of_Half_Year" msprop:FriendlyName="Reporting_Month_of_Half_Year" msprop:DbColumnName="Reporting_Month_of_Half_Year" msprop:design-time-name="0f27135d-02a9-40c8-aeae-651d0a9d278d" type="xs:int" minOccurs="0" />
+                      <xs:element name="Reporting_Month_of_Half_Year_Name" msprop:FriendlyName="Reporting_Month_of_Half_Year_Name" msprop:DbColumnName="Reporting_Month_of_Half_Year_Name" msprop:design-time-name="54d6f291-3818-4b26-8f41-811fd1b1ab08" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="Reporting_Half_Year_of_Year" msprop:FriendlyName="Reporting_Half_Year_of_Year" msprop:DbColumnName="Reporting_Half_Year_of_Year" msprop:design-time-name="b59c8583-494d-437e-afee-5605adeee234" type="xs:int" minOccurs="0" />
+                      <xs:element name="Reporting_Half_Year_of_Year_Name" msprop:FriendlyName="Reporting_Half_Year_of_Year_Name" msprop:DbColumnName="Reporting_Half_Year_of_Year_Name" msprop:design-time-name="dc5ab7d8-7556-4cfa-a9ed-b2b077557ac4" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="50" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:choice>
+            </xs:complexType>
+            <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_Campus" />
+              <xs:field xpath="CampusID" />
+            </xs:unique>
+            <xs:unique name="dbo_Courses_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_Courses" />
+              <xs:field xpath="CourseID" />
+            </xs:unique>
+            <xs:unique name="dbo_Degree_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_Degree" />
+              <xs:field xpath="DegreeID" />
+            </xs:unique>
+            <xs:unique name="dbo_Student_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_Student" />
+              <xs:field xpath="StudentID" />
+            </xs:unique>
+            <xs:unique name="dbo_Time_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_Time" />
+              <xs:field xpath="PK_Date" />
+            </xs:unique>
+            <xs:keyref name="FK_StudentStatus_Degree" refer="dbo_Degree_Constraint1">
+              <xs:selector xpath=".//dbo_StudentStatus" />
+              <xs:field xpath="DegreeID" />
+            </xs:keyref>
+            <xs:keyref name="FK_StudentStatus_Courses" refer="dbo_Courses_Constraint1">
+              <xs:selector xpath=".//dbo_StudentStatus" />
+              <xs:field xpath="CourseID" />
+            </xs:keyref>
+            <xs:keyref name="FK_StudentStatus_Student" refer="dbo_Student_Constraint1">
+              <xs:selector xpath=".//dbo_StudentStatus" />
+              <xs:field xpath="StudentID" />
+            </xs:keyref>
+            <xs:keyref name="FK_StudentStatus_Campus" refer="Constraint1">
+              <xs:selector xpath=".//dbo_StudentStatus" />
+              <xs:field xpath="CampusID" />
+            </xs:keyref>
+            <xs:keyref name="FK_Registration_Degree" refer="dbo_Degree_Constraint1">
+              <xs:selector xpath=".//dbo_Registration" />
+              <xs:field xpath="DegreeID" />
+            </xs:keyref>
+            <xs:keyref name="FK_Registration_Student" refer="dbo_Student_Constraint1">
+              <xs:selector xpath=".//dbo_Registration" />
+              <xs:field xpath="StudentID" />
+            </xs:keyref>
+            <xs:keyref name="FK_Registration_Campus" refer="Constraint1">
+              <xs:selector xpath=".//dbo_Registration" />
+              <xs:field xpath="CampusID" />
+            </xs:keyref>
+          </xs:element>
+          <xs:annotation>
+            <xs:appinfo>
+              <msdata:Relationship name="Registration-Time" msdata:parent="dbo_Time" msdata:child="dbo_Registration" msdata:parentkey="PK_Date" msdata:childkey="RegistrationDate" msprop:Description="" msprop:IsLogical="True" />
+              <msdata:Relationship name="StudentStatus-Time" msdata:parent="dbo_Time" msdata:child="dbo_StudentStatus" msdata:parentkey="PK_Date" msdata:childkey="Session" msprop:Description="" msprop:IsLogical="True" />
+            </xs:appinfo>
+          </xs:annotation>
+        </xs:schema>
+        <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+      </Schema>
+    </DataSourceView>
+  </DataSourceViews>
+</Database>

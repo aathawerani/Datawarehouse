@@ -1,0 +1,237 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dc91bd27-2e5e-4fac-b6b4-6e265e4710a0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Student</ID>
+  <Name>Student</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="16ddcaaf-8095-4c7b-900e-08ee4f4e15ba">
+    <DataSourceViewID>FASTDB</DataSourceViewID>
+  </Source>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="647b7a09-07bc-48ab-8e77-c90e8e3cd434">
+      <ID>Student</ID>
+      <Name>Student</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>6000</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ffd9e892-7223-499d-b71f-dc21c8ee2f28">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c8287c79-142e-4e62-ab49-d88c745016f6">
+            <TableID>dbo_Student</TableID>
+            <ColumnID>StudentID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="93cc0af1-37d3-4845-b194-07c0be20f6f5">
+          <AttributeID>Student Name</AttributeID>
+          <Name>Student Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="10eaf10c-3525-425b-af09-bea6fa856d85">
+          <AttributeID>Father Name</AttributeID>
+          <Name>Father Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="939086ba-0202-410c-976e-21a267e41a54">
+          <AttributeID>Gender</AttributeID>
+          <Name>Gender</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="606b75ca-e0a9-4530-aa84-99e9b67ac936">
+          <AttributeID>Date Of Birth</AttributeID>
+          <Name>Date Of Birth</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="93b40bc8-f24b-402f-90b0-ad1003ee1e6d">
+          <AttributeID>Education</AttributeID>
+          <Name>Education</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c062f91e-40b7-4007-bfde-e820d09df238">
+          <AttributeID>Address</AttributeID>
+          <Name>Address</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="48e49291-d8f1-4533-8825-98840966e9a6">
+          <AttributeID>Roll Number</AttributeID>
+          <Name>Roll Number</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="59030903-853e-4241-af8d-ca1b51129578">
+          <AttributeID>Student City</AttributeID>
+          <Name>Student City</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>MandatoryFilter</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="ec6566be-e53f-4e13-a5bd-764df8bf07e2">
+      <ID>Student Name</ID>
+      <Name>Student Name</Name>
+      <EstimatedCount>5834</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="49400abf-c801-4073-aadb-f2290ca4b44b">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="89d11a08-5e44-4cc0-863b-3aba88efdadc">
+            <TableID>dbo_Student</TableID>
+            <ColumnID>StudentName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>MandatoryFilter</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="26c11421-9325-4df6-bb6b-43e18656cec3">
+      <ID>Father Name</ID>
+      <Name>Father Name</Name>
+      <EstimatedCount>5858</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b361400f-c7b5-46eb-8fb6-b290ff2909d1">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c033bd00-20dd-43a4-862e-6e94e62992fe">
+            <TableID>dbo_Student</TableID>
+            <ColumnID>FatherName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>MandatoryFilter</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="bd40e6b0-dc09-4785-bce2-402210988247">
+      <ID>Gender</ID>
+      <Name>Gender</Name>
+      <EstimatedCount>2</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="607ee876-7715-41c7-b55c-923b9ca26946">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="869cfdd2-3fd5-4d58-b7ee-586e9373148d">
+            <TableID>dbo_Student</TableID>
+            <ColumnID>Gender</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="58dbf441-7e54-4d09-a364-a4f3316da4d0">
+      <ID>Date Of Birth</ID>
+      <Name>Date Of Birth</Name>
+      <EstimatedCount>3726</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="26071e1d-affa-4d5b-bbc0-094bb1e47a22">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="38f53f9a-fc73-4c6a-8578-1d1d42e563cd">
+            <TableID>dbo_Student</TableID>
+            <ColumnID>DateOfBirth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>FilteredList</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="8479bf9c-8d89-48b2-9187-d5164eec509a">
+      <ID>Education</ID>
+      <Name>Education</Name>
+      <EstimatedCount>6</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="635c1cff-be60-4700-9334-1e8eb63f735f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="20c50ccd-62df-48d3-9719-5d5b879142c9">
+            <TableID>dbo_Student</TableID>
+            <ColumnID>Education</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="c0384d91-7faf-4ece-a547-1650af0984ae">
+      <ID>Address</ID>
+      <Name>Address</Name>
+      <EstimatedCount>5998</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6d953de5-759f-4dc6-bfa2-b6724bd2103c">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="be23765d-a882-4278-866d-8912c6a6bfec">
+            <TableID>dbo_Student</TableID>
+            <ColumnID>Address</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>MandatoryFilter</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="200f7fff-b2ad-49b2-b333-7ac27b4e6650">
+      <ID>Roll Number</ID>
+      <Name>Roll Number</Name>
+      <EstimatedCount>4400</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fef6a82b-778d-4c40-a5c2-ff7281db83c2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="94ac162f-dde7-496f-85c6-9349524739ed">
+            <TableID>dbo_Student</TableID>
+            <ColumnID>RollNumber</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>FilteredList</InstanceSelection>
+    </Attribute>
+    <Attribute dwd:design-time-name="8205f5c0-2d61-4abd-8ad1-cc1bab0294b7">
+      <ID>Student City</ID>
+      <Name>Student City</Name>
+      <EstimatedCount>4</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="855c19a2-de0c-486d-a44f-95e3a7b97b85">
+          <DataType>WChar</DataType>
+          <DataSize>250</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="eb574d07-1bd3-4266-a41e-a35c2bc5e0df">
+            <TableID>dbo_Student</TableID>
+            <ColumnID>StudentCity</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <InstanceSelection>DropDown</InstanceSelection>
+    </Attribute>
+  </Attributes>
+</Dimension>
